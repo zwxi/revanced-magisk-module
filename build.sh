@@ -4,7 +4,7 @@ set -e
 
 source utils.sh
 
-YT_PATCHER_ARGS="-e microg-support"
+YT_PATCHER_ARGS="-e microg-support -e fenster-swipe-controls -e hdr-max-brightness -e amoled -e minimized-playback -e disable-create-button -e general-ads -e video-ads -e seekbar-tapping -e premium-heading -e old-quality-layout -e custom-playback-speed"
 MUSIC_PATCHER_ARGS="-e microg-support"
 
 BUILD_YT=false
